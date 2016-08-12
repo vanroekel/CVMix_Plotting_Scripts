@@ -1,0 +1,6 @@
+A few scripts in this directory require cython (easy to install with conda).  To compile them run from the command line
+
+python setup_bld.py build_ext --inplace 
+python setup_mld.py build_ext --inplace 
+
+The other two scripts require no special considerations.  readData will process MPAS, MOM, and POP data into a uniform format using xarray and dictionaries for easier analysis
